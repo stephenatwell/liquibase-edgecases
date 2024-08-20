@@ -33,6 +33,7 @@ databaseChangeLog:
 -  changeSet:
      id:  fail-halfway-through
      author:  liquibase-docs
+     ignore: true
      changes:
       -  sqlFile:
            path:  fail-halfway.sql
