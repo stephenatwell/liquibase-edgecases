@@ -37,6 +37,6 @@ databaseChangeLog:
      changes:
       -  sqlFile:
            path:  fail-halfway.sql
-      rollback:
+     rollback:
       -  sqlFile:
            path:  rollback-failhalfway.sql   
