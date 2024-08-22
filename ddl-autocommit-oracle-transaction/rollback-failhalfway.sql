@@ -1,6 +1,4 @@
-create table animal (genus VARCHAR(50), species VARCHAR(50));
-
-EXECUTE IMMEDIATE 'DROP TABLE ' || person;
+EXECUTE IMMEDIATE 'DROP TABLE ' || animal;
 EXCEPTION
    WHEN OTHERS THEN
       IF SQLCODE != -942 THEN
